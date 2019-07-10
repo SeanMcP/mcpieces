@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'mcpieces'
+import { Form } from 'mcpieces'
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <ExampleComponent text="Modern React component module" />
+        <Form.Input type="text" defaultValue="Hello world!" />
       </div>
     )
   }
