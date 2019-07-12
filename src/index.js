@@ -1,4 +1,4 @@
-import Input from 'form/Input/Input'
+import Input from './form/Input/Input'
 
 export const Form = {
   Input
