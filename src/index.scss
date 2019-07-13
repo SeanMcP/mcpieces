@@ -1,5 +1,13 @@
+@import './form/Input/Input';
+
 $color: dodgerblue;
 
 body {
   background: $color;
+}
+
+input,
+button {
+  font-family: inherit;
+  font-size: inherit;
 }
